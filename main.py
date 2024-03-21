@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI()
-
+app = FastAPI(title="Will Be Blockchain API")
 
 @app.get("/")
 async def root():
